@@ -23,6 +23,7 @@ public class DemoAppApplicationContractsModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)
     {
+    
         DemoAppDtoExtensions.Configure();
     }
 }
